@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
+    "formik": "^2.1.4",
     "jwt-decode": "^2.2.0",
     "mui-datatables": "^2.6.4",
     "react": "^16.8.6",
@@ -21,13 +22,16 @@
     "react-syntax-highlighter": "^11.0.2",
     "react-toastify": "^5.3.2",
     "recharts": "^1.6.2",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.1",
+    "yup": "^0.29.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "npx styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +47,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^4.2.0",
+    "prettier": "^1.19.1",
+    "react-styleguidist": "^10.6.1"
   }
 }
