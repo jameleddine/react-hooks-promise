@@ -53,10 +53,10 @@ export default function ProfilePage () {
 
             </Grid>
             <Grid item xs={8} className={classes.info}>
-            <p>Franziska Ridzewski </p>
-            <p>  Solutions </p>
+            <p>User Ridzewski </p>
+            <p>  WEvioo </p>
             <p>Group Director Peopel </p>
-            <p>franziska@  </p>
+            <p>User@  </p>
             <p>  000 000 002</p>
             </Grid>
           </Grid>
