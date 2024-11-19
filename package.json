@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^7.1.2",
     "clsx": "^1.1.0",
     "date-fns": "latest",
-    "firebase": "^7.7.0",
+    "firebase": "^10.9.0",
     "formik": "^2.1.2",
     "google-protobuf": "^3.11.2",
     "grpc-web": "^1.0.7",
